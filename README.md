@@ -1,4 +1,4 @@
-# PowerBI_projects
+  # PowerBI_projects
  #  Revenue insights in hospitality Domain
 
 ## Dashboard Link : https://app.powerbi.com/groups/me/reports/bdfc1fd0-7e3d-4256-a91e-54b7a4c4cbed/bbad9920501ca0738286?experience=power-bi
@@ -56,15 +56,22 @@
  # key metrics 
   This dashboard offers a comprehensive assessment of the revenue for a fictional hospitality company that manages a network of hotels across different Indian cities. Employing Data Analysis Expressions (DAX) measures, the dashboard not only evaluates revenue but also computes essential metrics and indicators tailored to the unique dynamics of the hospitality industry.
 Below are some important key metrics and measures used in this dashboard.
+
 📌 Revenue it indicates total revenue realized by the company
+
 📌 RevPAR (Revenue generated per available room (both booked and non-booked))
+
 📌DSRN (Daily Sellable Room Nights) This metrics tells us on an average how many rooms are ready to sell for a day
+
 📌Occupancy means how many rooms are occupied among all the available rooms.
-📌ADR (Average Daily Rate) is the measure of average paid for rooms sold in a given time, it also tells how pricing of a hotel room is
+
+📌ADR (Average Daily Rate) is the measure of average paid for rooms sold in a given time, it also tells how pricing of a hotel room 
+
 📌Realization tells about how many rooms were actually utilized among booked rooms and many more.
-📌% Revenue by category donut chart indicates how much percentage of
-bookings getting from different categories.
-📌Trend by key metrics line chart indicates how RevPar, ADR & Occupancy
-% changes week on week.
+
+📌% Revenue by category donut chart indicates how much percentage of bookings getting from different categories.
+
+📌Trend by key metrics line chart indicates how RevPar, ADR & Occupancy % changes week on week.
+
 📌Realisation % and ADR by Platform line and stacked column chart indicates that from each platform how many bookings are receiving (here examples of platform are longtrip, makemytrip etc)
 
