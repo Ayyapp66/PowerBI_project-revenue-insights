@@ -54,33 +54,17 @@
 12. revenue_realized: This column represents the final amount of money that goes to the hotel based on booking status. If the booking status is cancelled, then 40% of the revenue generated is deducted and the remaining is refunded to the customer. If the booking status is Checked Out/No show, then full revenue generated will goes to hotels.
 
  # key metrics 
- 1. Revenue :
-    sum of revenue realized
- 
- 2. ADR(Average Daily rate) :
-    It is the ratio of revenue to the total rooms booked/sold. 
-    It is the measure of the average paid for rooms sold in a given time period
- 
- 3.Occupancy % :
-    Occupancy means total successful bookings happened to the 
-    total rooms available(capacity)"
- 
- 4.Realisation % :
-    It is nothing but the successful ""checked out"" percentage over all bookings happened.
- 
- 5. RevPAR(Revenue Per Available Room) :
-    RevPAR represents the revenue generated per available room, whether or not they are occupied.
-    RevPAR helps hotels measure their revenue generating performance to 
-    accurately price rooms. RevPAR can help hotels measure themselves against other properties or brands.
- 
- 6.DBRN(Daily Booked Room Nights) :
-    This metrics tells on average how many rooms are booked for a day considering a time period
- 
- 7.DSRN(Daily Sellable Room Nights) :
-    This metrics tells on average how many rooms are ready to sell for a day considering a time period
-
-8.DURN(Daily Utilized Room Nights) :
-    This metric tells on average how many rooms are successfully utilized by customers for a day considering a time period
-
-
+  This dashboard offers a comprehensive assessment of the revenue for a fictional hospitality company that manages a network of hotels across different Indian cities. Employing Data Analysis Expressions (DAX) measures, the dashboard not only evaluates revenue but also computes essential metrics and indicators tailored to the unique dynamics of the hospitality industry.
+Below are some important key metrics and measures used in this dashboard.
+📌 Revenue it indicates total revenue realized by the company
+📌 RevPAR (Revenue generated per available room (both booked and non-booked))
+📌DSRN (Daily Sellable Room Nights) This metrics tells us on an average how many rooms are ready to sell for a day
+📌Occupancy means how many rooms are occupied among all the available rooms.
+📌ADR (Average Daily Rate) is the measure of average paid for rooms sold in a given time, it also tells how pricing of a hotel room is
+📌Realization tells about how many rooms were actually utilized among booked rooms and many more.
+📌% Revenue by category donut chart indicates how much percentage of
+bookings getting from different categories.
+📌Trend by key metrics line chart indicates how RevPar, ADR & Occupancy
+% changes week on week.
+📌Realisation % and ADR by Platform line and stacked column chart indicates that from each platform how many bookings are receiving (here examples of platform are longtrip, makemytrip etc)
 
